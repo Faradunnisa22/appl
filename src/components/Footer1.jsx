@@ -5,7 +5,7 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-
 const Footer1= () =>{
   return (
     <Footer container>
-      <div className="w-full md:mx-52 md:mt-0 -mt-96">
+      <div className="w-full md:mx-52 md:mt-0 mt-20">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
             <Footer.Brand

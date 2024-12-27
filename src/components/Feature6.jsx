@@ -31,18 +31,18 @@ const feature6 =  [
                 {
                     feature6.map(feature6 => <div key={feature6.id} className='px-4 py-8 text-center md:w-[300px] mx-auto rounded-md shadow-lg cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full'>
                         <div>
-                            <div className='mb-4 h-14 rounded-tl-3xl w-full mx-auto'>
+                            <div className='mb-4 mt-10 h-14 rounded-tl-3xl w-full mx-auto'>
                                 <img src={feature6.image} alt="" />
                             </div >
-                            <div className='mt-36'>
-                            <h4 className='font-semibold  mt-0  text-2xl mb-2 px-2'>{feature6.title}</h4>
+                            <div className='mt-48'>
+                            <h4 className='font-semibold  mt-10 text-2xl mb-2 px-2'>{feature6.title}</h4>
                             <p className='text-sm text-neutral-500 items-center justify-start'>{feature6.description}</p>
                             </div>
                         </div>
                         </div>)
                 }
             </div>
-            <div className='md:mt-20 md:mx-52 md:grid-cols-3  grid mt-10  items-center justify-between grid-cols-2 gap-6 '>
+            <div className='md:mt-20 md:mx-52 mx-8 md:grid-cols-3  grid mt-10  items-center justify-between grid-cols-2 gap-6 '>
                 <img src={path1} alt="" />
                 <img src={path2} alt="" />
                 <img src={path3} alt="" />
@@ -63,7 +63,7 @@ const feature6 =  [
    
 
     <form>
-      <div className="mb-4 md:mt-0 -mt-96">
+      <div className="mb-4 md:mt-0 mt-17">
         <label className="block text-sm font-medium text-gray-700">Enter your name</label>
         <input
           type="text"

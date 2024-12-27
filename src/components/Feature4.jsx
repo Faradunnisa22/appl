@@ -60,7 +60,7 @@ const Feature4 = () => {
             </div>
 
 
-            <div className='md:mt-2 -mt-72 mx-5 text-sm md:text-base'>
+            <div className='md:mt-2 mt-10 mx-5 text-sm md:text-base'>
                 <div className=' md:w-auto w-72 md:flex md:flex-row-reverse md:mt-6 items-center justify-between sm:flex-col-reverse'>
                     <img src={container} alt="" className='  md:w-96 md:mr-64' />
                     <div className='text-black font-medium md:mx-52 '>
